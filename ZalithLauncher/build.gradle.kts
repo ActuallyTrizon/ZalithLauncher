@@ -54,9 +54,9 @@ android {
 
     signingConfigs {
         create("releaseBuild") {
-            val pwd = System.getenv("SIGNING_STORE_PASSWORD") ?: "trizon"
+            val trizon = System.getenv("SIGNING_STORE_PASSWORD") ?: "trizon"
             storeFile = file("trizon.jks")
-            storePassword = pwd
+            storePassword = trizon
             keyAlias = System.getenv("SIGNING_KEY_ALIAS") ?: "tri"
             keyPassword = System.getenv("SIGNING_KEY_PASSWORD") ?: "trizon"
         }
