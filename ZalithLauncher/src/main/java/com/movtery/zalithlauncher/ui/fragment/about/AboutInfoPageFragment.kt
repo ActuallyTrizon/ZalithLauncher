@@ -162,4 +162,6 @@ class AboutInfoPageFragment() : Fragment(R.layout.fragment_about_info_page) {
                 )
             )
         )
-        
+    }
+}
+
