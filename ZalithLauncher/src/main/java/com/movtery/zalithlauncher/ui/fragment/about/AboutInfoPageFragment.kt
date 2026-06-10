@@ -83,18 +83,7 @@ class AboutInfoPageFragment() : Fragment(R.layout.fragment_about_info_page) {
     private fun loadAboutData(resources: Resources) {
         mAboutData.clear()
         
-        mAboutData.add(
-            AboutItemBean(
-                resources.getDrawable(R.drawable.image_about_trizon, requireContext().theme),
-                "Trizon",
-                getString(R.string.about_Trizon_desc),
-                AboutItemButtonBean(
-                    requireActivity(),
-                    "Github",
-                    "https://github.com/ActuallyTrizon"
-                )
-            )
-        )
+        
         mAboutData.add(
             AboutItemBean(
                 resources.getDrawable(R.drawable.ic_pojav_full, requireContext().theme),
@@ -112,6 +101,18 @@ class AboutInfoPageFragment() : Fragment(R.layout.fragment_about_info_page) {
                     requireActivity(),
                     getString(R.string.about_access_space),
                     "https://space.bilibili.com/2008204513"
+                )
+            )
+        )
+        mAboutData.add(
+            AboutItemBean(
+                resources.getDrawable(R.drawable.image_about_trizon, requireContext().theme),
+                "Trizon",
+                getString(R.string.about_Trizon_desc),
+                AboutItemButtonBean(
+                    requireActivity(),
+                    getString(R.string.about_access_space),
+                    "https://github.com/ActuallyTrizon"
                 )
             )
         )
