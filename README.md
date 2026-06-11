@@ -42,9 +42,9 @@ Now under active community development, the mission is simple: **preserve the fo
 
 ---
 ### Previews
-![screenshot_1](image_1.png)
-![screenshot_2](image_2.png)
-![screenshot_3](image_3.png)
+![screenshot_1](screenshot_1.png)
+![screenshot_2](screenshot_2.png)
+![screenshot_3](screenshot_3.png)
 ---
 
 <h2 align="center">License</h2>
